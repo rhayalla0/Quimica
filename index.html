@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz Colorido de Química</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="question" class="question">Carregando pergunta...</div>
+    <div id="options" class="options"></div>
+    <div id="feedback"></div>
+    <button id="nextBtn" onclick="proximaPergunta()" style="display:none;">Próxima</button>
+    <button id="mostrarPontuacao" onclick="mostrarPontuacao()" style="display:none;">Ver Pontuação</button>
+    <button id="resetarPontuacao" onclick="resetarPontuacao()">Reiniciar Quiz</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
